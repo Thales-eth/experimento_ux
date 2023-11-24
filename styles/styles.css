@@ -1,0 +1,136 @@
+/* 
+DARKGREEN: #283618
+LIGHTGREEN: #d4dcbc
+FONT IMPORT LINK: 
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&family=Spectral&display=swap");
+*/
+@import url("https://fonts.googleapis.com/css2?family=Spectral&display=swap");
+
+body {
+  font-family: "Spectral", sans-serif;
+  padding: 32px 48px;
+  overflow: hidden;
+  text-rendering: geometricPrecision;
+  --darkgreen: #283618;
+}
+
+nav {
+  height: 50px;
+  justify-content: space-between;
+  margin-bottom: 4px;
+}
+
+a {
+  color: var(--darkgreen);
+}
+
+nav a {
+  font-size: 18px;
+  line-height: 20px;
+}
+
+nav a:hover {
+  color: #d4dcbc;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.flex {
+  display: flex;
+}
+
+.badi-logo {
+  transition: 0.3s;
+}
+
+.badi-logo:hover {
+  transform: scale(1.2);
+}
+
+.nav-list {
+  gap: 48px;
+}
+
+.badi-rooms-section {
+  margin-bottom: 40px;
+  align-items: center;
+  height: 322px;
+}
+
+.badi-rooms-block {
+  flex: 1;
+  margin-right: 40px;
+}
+
+.badi-rooms-header {
+  margin-bottom: 18px;
+}
+
+.new-text {
+  margin-left: 16px;
+  line-height: 18px;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+.paragraphs {
+  margin-right: 80px;
+}
+
+.first-paragraph {
+  margin-bottom: 12px;
+}
+
+.second-paragraph {
+  margin-bottom: 24px;
+}
+
+.main-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  height: 40px;
+  padding: 10px 55px;
+  background-color: #283618;
+  color: white;
+  transition: 0.3s;
+}
+
+.main-btn:hover {
+  background-color: #d4dcbc;
+  color: #283618;
+}
+
+.badi-rooms-image {
+  height: 89.4%;
+  flex: 1.5;
+  background: url("../images/badihomes-into-banner.jpeg") center / cover;
+}
+
+.marketplace-section {
+  height: 278px;
+  background: #e7f6f2 url("../images/badihomes-market-bg.png") center / cover;
+  justify-content: end;
+}
+
+.marketplace-block {
+  margin: 32px 80px 32px 0;
+  width: 354.66px;
+}
+
+.marketplace-title {
+  margin-bottom: 18px;
+}
+
+.marketplace-paragraph {
+  margin-bottom: 24px;
+}
